@@ -1,0 +1,2 @@
+# InstallRPackages
+A family of packages to install packages into the GenePattern R site libraries.  Supports R-2.15, R-3.0, R-3.1, and R-3.2.  Be *very* careful about using these modules and exposing them to all users as they allow the user to install arbitrary code onto the GenePattern server.  These are intended for administrators.  It is anticipated that they will be made obsolete by future built-in GenePattern server features.
