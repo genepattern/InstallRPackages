@@ -1,6 +1,6 @@
 #Fri Oct 09 19:23:40 PDT 2015
 name=InstallRPackages_R3.0
-commandLine=<R3.0_Rscript> --no-save --quiet --slave --no-restore <libdir>installPackages.R <r.package.info>
+commandLine=<R3.0_Rscript> --no-save --quiet --slave --no-restore <libdir>installPackages.R <r.package.info> report.log
 license=
 taskDoc=doc.html
 fileFormat=
