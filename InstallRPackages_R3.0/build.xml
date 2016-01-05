@@ -2,7 +2,7 @@
 <!-- Ant build file -->
 
 <project basedir="." default="create-zip" name="InstallRPackages_R3.0">
-	<property name="dirOffset" value="../../" />
+	<property name="dirOffset" value="../../common_module_code" />
     <import file="${dirOffset}/common_module_code/commontargets.xml" />
 
 	<target depends="init" name="create-zip">
